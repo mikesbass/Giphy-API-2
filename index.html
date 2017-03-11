@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Giphy API</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+
+	<body>
+
+			<div id="titleBox" class="container-fluid">
+				<div class="row">
+					<div>
+						<h3>Heroes Galore Giphy Search Engine</h3>
+					</div>
+				</div>
+			</div>	
+
+			<div class="container-fluid">
+				<div class="row">
+					<div id="images"></div>
+				</div>
+			</div>
+
+			<div id="info" class="col-md-6">
+				<div class="information"><h3>Add your favorite Hero here!</h3>
+					<div class="inputBox">
+						<form>
+							<input type="text" id="hero-input"><br>
+							<input id="add-hero" type="submit" value="Add a Hero">
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="gifContent" class="container-fluid">
+				<div class="row">
+					<div id="heroes-view"></div>
+				</div>
+			</div>
+
+		<div class="modal-footer">
+			<div class="align-content-md-center"></div>
+		</div>
+
+		<script type="text/javascript" src="assets/javascript/app.js">
+		</script>
+
+	</body>
+
+</html>
